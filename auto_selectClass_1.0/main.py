@@ -64,3 +64,5 @@ for i in range(1, 9):#后面数字9可改动，具体取决于你收藏夹里的
 end_time2 = time.time()
 select_time = end_time2 - start_time
 print(f"抢课总用时：{select_time:.6f} 秒")
+
+time.sleep(1000)
