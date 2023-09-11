@@ -4,8 +4,8 @@
    请勿使用该脚本恶意选课，造成后果作者概不负责"""
 
 import time
+from telnetlib import EC
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
